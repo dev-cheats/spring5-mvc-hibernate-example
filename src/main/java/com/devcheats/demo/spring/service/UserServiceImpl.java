@@ -10,7 +10,7 @@ import org.springframework.transaction.annotation.Transactional;
 import com.devcheats.demo.spring.dao.UserDao;
 
 @Service
-public class UserServiceImp implements UserService {
+public class UserServiceImpl implements UserService {
 
    @Autowired
    private UserDao userDao;
